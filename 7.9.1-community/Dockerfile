@@ -8,7 +8,7 @@ ENV SONAR_VERSION=7.9.1 \
     # Drop these in the next release, also in the run script
     SONARQUBE_JDBC_USERNAME=sonarUser \
     SONARQUBE_JDBC_PASSWORD=sonarPass \
-    SONARQUBE_JDBC_URL=jdbc:postgresql://dull-heron-postgresql:5432/sonarDB
+    SONARQUBE_JDBC_URL=jdbc:postgresql://ignoble-bunny-postgresql:5432/sonarDB
 
 # Http port
 EXPOSE 9000
