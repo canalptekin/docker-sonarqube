@@ -6,9 +6,9 @@ ENV SONAR_VERSION=7.8 \
     # Defaults to using H2
     # DEPRECATED. Use -v sonar.jdbc.username=... instead
     # Drop these in the next release, also in the run script
-    SONARQUBE_JDBC_USERNAME=sonar \
-    SONARQUBE_JDBC_PASSWORD=sonar \
-    SONARQUBE_JDBC_URL=
+    SONARQUBE_JDBC_USERNAME=sonaruser \
+    SONARQUBE_JDBC_PASSWORD=sonarpass \
+    SONARQUBE_JDBC_URL=jdbc:postgresql://postgresql/sonardb
 
 # Http port
 EXPOSE 9000
